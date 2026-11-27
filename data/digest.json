@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-27T14:11:59Z",
+ "generated_at": "2026-11-27T14:16:23Z",
  "window_hours": 72,
  "notes": "events: changes detected by the collector in the last window_hours, newest first. Filter by detected_at against the scan's own lookback window. active: current state of each tracked condition. context: latest NWS text products for interpretation. health: per-source status; anything not ok is a GAP.",
  "events": [
@@ -154,7 +154,7 @@
     "site": "USGS-0209741090",
     "name": "CROOKED CREEK AT SCOTT KING ROAD NEAR BLANDS, NC",
     "stage_ft": 2.17,
-    "time": "2026-11-27T14:00:00+00:00",
+    "time": "2026-11-27T14:05:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -166,7 +166,7 @@
     "site": "USGS-0208675010",
     "name": "ELLERBE CREEK AT CLUB BOULEVARD AT DURHAM, NC",
     "stage_ft": 1.26,
-    "time": "2026-11-27T14:00:00+00:00",
+    "time": "2026-11-27T14:05:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -190,7 +190,7 @@
     "site": "USGS-02085039",
     "name": "ENO RIVER AT COLE MILL RD NR HUCKLEBERRY SPRING",
     "stage_ft": 3.06,
-    "time": "2026-11-27T14:00:00+00:00",
+    "time": "2026-11-27T14:05:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -201,8 +201,8 @@
    {
     "site": "USGS-02085070",
     "name": "ENO RIVER NEAR DURHAM, NC",
-    "stage_ft": 3.06,
-    "time": "2026-11-27T13:50:00+00:00",
+    "stage_ft": 3.05,
+    "time": "2026-11-27T14:05:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -249,9 +249,9 @@
    {
     "site": "USGS-0208700550",
     "name": "LITTLE LICK CREEK AT NC HWY 98 AT OAK GROVE, NC",
-    "stage_ft": 1.63,
-    "time": "2026-11-27T14:00:00+00:00",
-    "rise_ft": 0.0,
+    "stage_ft": 1.64,
+    "time": "2026-11-27T14:05:00+00:00",
+    "rise_ft": 0.01,
     "rise_hours": 24.0,
     "action_stage_ft": null,
     "at_action": false,
@@ -345,8 +345,8 @@
    {
     "site": "USGS-0209725960",
     "name": "THIRD FORK CREEK AT M.L. KING PARKWAY AT DURHAM,NC",
-    "stage_ft": 0.71,
-    "time": "2026-11-27T13:50:00+00:00",
+    "stage_ft": 0.7,
+    "time": "2026-11-27T14:05:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -453,7 +453,7 @@
   },
   "twoat": {
    "text": "\u0001\n825 \nABNT20 KNHC 271121\nTWOAT \n\nTropical Weather Outlook\nNWS National Hurricane Center Miami FL\n700 AM EST Fri Nov 27 2026\n\nFor the North Atlantic...Caribbean Sea and the Gulf of America:\n\nTropical cyclone formation is not expected during the next 7 days.\n\n$$\nForecaster Cangialosi\n\n\u0003",
-   "fetched": "2026-11-27T14:11:59Z"
+   "fetched": "2026-11-27T14:16:23Z"
   }
  },
  "health": {
@@ -462,79 +462,79 @@
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "nws_forecast": {
    "status": "ok",
    "message": "",
    "items": 6,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "nws_products": {
    "status": "ok",
    "message": "",
    "items": 2,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "nhc_two": {
    "status": "ok",
    "message": "",
    "items": 1,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "usgs_gauges": {
    "status": "ok",
    "message": "",
    "items": 17,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "usdm": {
    "status": "ok",
    "message": "",
    "items": 6,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "city_durham": {
    "status": "ok",
    "message": "",
    "items": 26,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "federal_register": {
    "status": "ok",
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "openfema": {
    "status": "ok",
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "airnow": {
    "status": "skipped",
-   "message": "no AIRNOW_API_KEY secret set",
+   "message": "AirNow retired the ZIP forecast service 2026-09-30; replacement not yet configured. NC DAQ forecast page is watched instead.",
    "items": null,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
+   "last_attempt": "2026-11-27T14:16:23Z",
    "last_success": null
   },
   "ncga": {
@@ -542,160 +542,160 @@
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "cdc_han": {
    "status": "ok",
    "message": "",
    "items": 10,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:cdc_phep_program": {
    "status": "ok",
    "message": "",
    "items": 62,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:cdc_rrf": {
    "status": "ok",
    "message": "",
    "items": 53,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:nc_phpr": {
    "status": "ok",
    "message": "",
    "items": 68,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:nc_measles": {
-   "status": "baseline",
-   "message": "first good read: recorded page, no events",
+   "status": "ok",
+   "message": "",
    "items": 109,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:nc_resp_dashboard": {
    "status": "ok",
    "message": "",
    "items": 144,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:nc_resp_detail": {
    "status": "ok",
    "message": "",
    "items": 120,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:fluview": {
    "status": "ok",
    "message": "",
-   "items": 520,
+   "items": 521,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:beacon_us": {
    "status": "ok",
    "message": "",
-   "items": 73,
+   "items": 36,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncagr_hpai": {
    "status": "ok",
    "message": "",
    "items": 76,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncdhhs_press": {
    "status": "ok",
    "message": "",
    "items": 59,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncdeq_press": {
    "status": "ok",
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncdrought": {
    "status": "ok",
    "message": "",
    "items": 146,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncagr_press": {
    "status": "ok",
    "message": "",
    "items": 45,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:ncfs_fire_danger": {
    "status": "ok",
    "message": "",
    "items": 45,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:nc_daq_forecast": {
    "status": "ok",
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:aspr_newsroom": {
    "status": "ok",
    "message": "",
    "items": 68,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:durham_county_news": {
-   "status": "baseline",
-   "message": "first good read: recorded page, no events",
+   "status": "ok",
+   "message": "",
    "items": 85,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   },
   "page:duke_health_news": {
    "status": "ok",
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T14:11:59Z",
-   "last_success": "2026-11-27T14:11:59Z"
+   "last_attempt": "2026-11-27T14:16:23Z",
+   "last_success": "2026-11-27T14:16:23Z"
   }
  }
 }
