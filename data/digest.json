@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-27T13:46:42Z",
+ "generated_at": "2026-11-27T13:56:08Z",
  "window_hours": 72,
  "notes": "events: changes detected by the collector in the last window_hours, newest first. Filter by detected_at against the scan's own lookback window. active: current state of each tracked condition. context: latest NWS text products for interpretation. health: per-source status; anything not ok is a GAP.",
  "events": [
@@ -154,7 +154,7 @@
     "site": "USGS-02085039",
     "name": "USGS-02085039",
     "stage_ft": 3.07,
-    "time": "2026-11-27T13:35:00+00:00",
+    "time": "2026-11-27T13:45:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -238,7 +238,7 @@
     "site": "USGS-0208675010",
     "name": "USGS-0208675010",
     "stage_ft": 1.27,
-    "time": "2026-11-27T13:35:00+00:00",
+    "time": "2026-11-27T13:45:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -249,8 +249,8 @@
    {
     "site": "USGS-02086799",
     "name": "USGS-02086799",
-    "stage_ft": 1.85,
-    "time": "2026-11-27T12:30:00+00:00",
+    "stage_ft": 1.84,
+    "time": "2026-11-27T13:30:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -274,7 +274,7 @@
     "site": "USGS-0208700550",
     "name": "USGS-0208700550",
     "stage_ft": 1.64,
-    "time": "2026-11-27T13:35:00+00:00",
+    "time": "2026-11-27T13:45:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -285,8 +285,8 @@
    {
     "site": "USGS-0209722970",
     "name": "USGS-0209722970",
-    "stage_ft": 2.34,
-    "time": "2026-11-27T12:45:00+00:00",
+    "stage_ft": 2.33,
+    "time": "2026-11-27T13:45:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -334,7 +334,7 @@
     "site": "USGS-0209741090",
     "name": "USGS-0209741090",
     "stage_ft": 2.17,
-    "time": "2026-11-27T13:35:00+00:00",
+    "time": "2026-11-27T13:45:00+00:00",
     "rise_ft": 0.0,
     "rise_hours": 24.0,
     "action_stage_ft": null,
@@ -345,9 +345,9 @@
    {
     "site": "USGS-0209741387",
     "name": "USGS-0209741387",
-    "stage_ft": 3.01,
-    "time": "2026-11-27T12:45:00+00:00",
-    "rise_ft": 0.0,
+    "stage_ft": 3.02,
+    "time": "2026-11-27T13:45:00+00:00",
+    "rise_ft": 0.01,
     "rise_hours": 24.0,
     "action_stage_ft": null,
     "at_action": false,
@@ -465,7 +465,7 @@
   },
   "twoat": {
    "text": "\u0001\n825 \nABNT20 KNHC 271121\nTWOAT \n\nTropical Weather Outlook\nNWS National Hurricane Center Miami FL\n700 AM EST Fri Nov 27 2026\n\nFor the North Atlantic...Caribbean Sea and the Gulf of America:\n\nTropical cyclone formation is not expected during the next 7 days.\n\n$$\nForecaster Cangialosi\n\n\u0003",
-   "fetched": "2026-11-27T13:46:42Z"
+   "fetched": "2026-11-27T13:56:08Z"
   }
  },
  "health": {
@@ -474,127 +474,127 @@
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "nws_forecast": {
    "status": "ok",
    "message": "",
    "items": 6,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "nws_products": {
    "status": "ok",
    "message": "",
    "items": 2,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "nhc_two": {
    "status": "ok",
    "message": "",
    "items": 1,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "usgs_gauges": {
    "status": "ok",
    "message": "",
    "items": 18,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "usdm": {
    "status": "ok",
    "message": "",
    "items": 6,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "city_durham": {
    "status": "ok",
    "message": "",
    "items": 26,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "federal_register": {
    "status": "ok",
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "openfema": {
    "status": "ok",
    "message": "",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "airnow": {
-   "status": "skipped",
-   "message": "no AIRNOW_API_KEY secret set",
+   "status": "error",
+   "message": "HTTPError: 410 Client Error:  for url: https://www.airnowapi.org/aq/forecast/zipCode/?format=application%2Fjson&zipCode=27701&distance=25&API_KEY=F3959E60-AEB3-4E78-A67E-C39A32A7D183",
    "items": null,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
+   "last_attempt": "2026-11-27T13:56:08Z",
    "last_success": null
   },
   "ncga": {
-   "status": "skipped",
-   "message": "no OPENSTATES_API_KEY secret set",
-   "items": null,
+   "status": "baseline",
+   "message": "first run: recorded existing bills, no events",
+   "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": null
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "cdc_han": {
    "status": "ok",
    "message": "",
    "items": 10,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:cdc_phep_program": {
    "status": "ok",
    "message": "",
    "items": 62,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:cdc_rrf": {
    "status": "ok",
    "message": "",
    "items": 53,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:nc_phpr": {
    "status": "ok",
    "message": "",
    "items": 68,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:nc_measles": {
    "status": "error",
    "message": "page returned no readable text",
    "items": 0,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
+   "last_attempt": "2026-11-27T13:56:08Z",
    "last_success": null
   },
   "page:nc_resp_dashboard": {
@@ -602,103 +602,103 @@
    "message": "",
    "items": 144,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:nc_resp_detail": {
    "status": "ok",
    "message": "",
    "items": 120,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:fluview": {
    "status": "ok",
    "message": "",
    "items": 521,
-   "events": 1,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "events": 0,
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:beacon_us": {
    "status": "ok",
    "message": "",
    "items": 73,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncagr_hpai": {
    "status": "ok",
    "message": "",
    "items": 76,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncdhhs_press": {
    "status": "ok",
    "message": "",
    "items": 59,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncdeq_press": {
    "status": "ok",
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncdrought": {
    "status": "ok",
    "message": "",
    "items": 146,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncagr_press": {
    "status": "ok",
    "message": "",
    "items": 45,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:ncfs_fire_danger": {
    "status": "ok",
    "message": "",
    "items": 45,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:nc_daq_forecast": {
    "status": "ok",
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:aspr_newsroom": {
    "status": "ok",
    "message": "",
    "items": 68,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   },
   "page:durham_county_news": {
    "status": "error",
    "message": "HTTPError: 404 Client Error: Not Found for url: https://dconc.gov/DurhamCo-News",
    "items": null,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
+   "last_attempt": "2026-11-27T13:56:08Z",
    "last_success": null
   },
   "page:duke_health_news": {
@@ -706,8 +706,8 @@
    "message": "",
    "items": 58,
    "events": 0,
-   "last_attempt": "2026-11-27T13:46:42Z",
-   "last_success": "2026-11-27T13:46:42Z"
+   "last_attempt": "2026-11-27T13:56:08Z",
+   "last_success": "2026-11-27T13:56:08Z"
   }
  }
 }
